@@ -6,6 +6,7 @@ package ee.dmitri.uva.problem102;
 // 08.08.2013
 
 // 1 submission: 102 	18668 	12183059 	2013-08-09 08:16:51 	2.136
+// 2 submission: 102 	17517 	12183398 	2013-08-09 10:06:25 	0.795
 
 import java.io.IOException;
 import java.util.HashMap;
@@ -107,13 +108,13 @@ public class Main {
             minSum = sum;
             minChars = chars;
             set.put(sum, chars);
-
           } else if (sum == minSum) {
             if (set.get(sum).compareTo(chars) > 0) {
               set.put(sum, chars);
               minChars = chars;
             }
           }
+
         } // for bin3
       } // for bin2
     } // for bin1
@@ -161,7 +162,7 @@ public class Main {
    * ...
    */
   private int[][] transformMatrix(int[][] matrix) {
-    int[][] transMatrix = new int[3][3];
+    int[][] transMatrix = new int[SIZE][SIZE];
 
     for (int binColor = 0; binColor < SIZE; binColor++) {
       for (int binNr = 0; binNr < SIZE; binNr++) {
