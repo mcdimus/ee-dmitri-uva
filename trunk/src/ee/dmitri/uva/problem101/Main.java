@@ -1,11 +1,14 @@
 package ee.dmitri.uva.problem101;
 
-// 101 - The Blocks Problem
-// http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=3&page=show_problem&problem=37
-// Time limit: 3.000 seconds
-// 07.08.2013
-//               Problem  Ranking Submission  Date  Run time
-// 1 submission: 101  9704  12175680  2013-08-07 13:15:33   0.609
+/*
+101 - The Blocks Problem
+http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=3&page=show_problem&problem=37
+Time limit: 3.000 seconds
+07.08.2013
+Users that solved it: 9969
+
+1 submission: 101  9704  12175680  2013-08-07 13:15:33   0.609
+*/
 
 import java.io.IOException;
 import java.util.Collections;
