@@ -1,12 +1,15 @@
 package ee.dmitri.uva.problem102;
 
-// 102 - Ecological Bin Packing
-// http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=38
-// Time limit: 3.000 seconds
-// 08.08.2013
+/*
+102 - Ecological Bin Packing
+http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=38
+Time limit: 3.000 seconds
+08.08.2013
+Users that solved it: 18781
 
-// 1 submission: 102 	18668 	12183059 	2013-08-09 08:16:51 	2.136
-// 2 submission: 102 	17517 	12183398 	2013-08-09 10:06:25 	0.795
+1 submission: 102 	18668 	12183059 	2013-08-09 08:16:51 	2.136
+2 submission: 102 	17517 	12183398 	2013-08-09 10:06:25 	0.795
+*/
 
 import java.io.IOException;
 import java.util.HashMap;

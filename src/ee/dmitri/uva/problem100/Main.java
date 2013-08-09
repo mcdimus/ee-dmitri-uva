@@ -1,14 +1,17 @@
 package ee.dmitri.uva.problem100;
 
-// 100 - The 3n + 1 problem
-// http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=36
-// Time limit: 3.000 seconds
-// 25.07.2013
+/*
+100 - The 3n + 1 problem
+http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=36
+Time limit: 3.000 seconds
+25.07.2013
+Users that solved it: 56779
 
-// 1 submission: 100    32531   12102172    2013-07-25 10:05:38     1.248
-// 2 submission: 100    31197   12102357    2013-07-25 10:58:54     1.135
-// 3 submission: 100    31194   12102481    2013-07-25 11:30:10     1.132
-// 4 submission: 100    30661   12102637    2013-07-25 12:05:26     1.102
+1 submission: 100    32531   12102172    2013-07-25 10:05:38     1.248
+2 submission: 100    31197   12102357    2013-07-25 10:58:54     1.135
+3 submission: 100    31194   12102481    2013-07-25 11:30:10     1.132
+4 submission: 100    30661   12102637    2013-07-25 12:05:26     1.102
+*/
 
 import java.io.IOException;
 import java.util.StringTokenizer;
